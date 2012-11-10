@@ -1,0 +1,224 @@
+/*BOILERPLATE*/
+
+.clear {
+	clear: both;
+	}
+
+body {
+
+	font-family: "Futura", "cool-font", arial, sans-serif;
+}	
+
+#wrapper {
+
+	position: relative;
+	width: 940px;
+	height: 627px;
+	overflow: hidden;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+}
+
+#internalwrapper {
+
+	position: relative;
+	bottom: 0px;
+}
+
+#tile1, #tile2, #tile3, #tile4, #tile5, #tile6, #tile7, #tile8, #tile9, #tile10, #tile11 {
+
+	position: relative;
+	width: 940px;
+	height: 627px;
+}
+
+#buttons {
+
+	position: absolute;
+	top: 420px;
+	left:10px;
+	z-index: 1;
+}
+
+#buttons img {
+
+	width: 60px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 10px;
+	float: left;
+}
+
+
+
+#downbutton {
+
+	position: absolute;
+	top: 60px;
+	left: 00px;
+}
+
+#upbutton {
+
+	display: none;
+	padding-bottom: 20px;
+	position: absolute;
+	top: -40px;
+}
+
+
+#buttonholder {
+
+	height: 200px;
+}
+
+#tile1 {
+
+	background: green;
+}
+
+#tile2 {
+
+	background: red;
+}
+
+#tile3 {
+
+	background: yellow;
+}
+
+#tile4 {
+
+	background: orange;
+}
+
+#tile5 {
+
+	background: blue;
+}
+
+#tile6 {
+
+	background: grey;
+}
+
+#tile7 {
+
+	background: black;
+}
+
+#tile8 {
+
+	background: pink;
+}
+
+#tile9 {
+
+	background: purple;
+
+}
+
+
+#tile10 {
+
+	background: cyan;
+	width: 1880px;
+}
+
+#rightbutton {
+
+	position: absolute;
+	left: 850px;
+	top: 260px;
+	z-index: 1;
+}
+
+#leftbutton {
+
+	position: absolute;
+	left: 960px;
+	top: 260px;
+	display: none;
+	z-index: 1;
+	
+}
+
+#newdown {
+
+	position: absolute;
+	left: 1340px;
+	bottom: 0px;
+}
+
+#newdown img {
+
+	width: 50px;	
+	background:rgba(0, 0, 0, 0.6);
+	padding: 10px;
+}
+
+#tile11 {
+
+	background: red;
+}
+
+#leftside {
+
+	background: yellow;
+	width: 470px;
+	height: 600px;
+	float: left;
+	position: absolute;
+	top: 0px;
+}
+
+#rightside {
+
+	width: 470px;
+	float: right;
+	height: 580px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+}
+
+#rightsidewrapper2 {
+
+	background: green;
+	width: 430px;
+	margin: 20px;
+	position: absolute;
+	color: white;
+}
+
+#titleswrapper {
+
+	position: absolute;
+	bottom: 30px;
+}
+
+#internalleft {
+
+	width: 450px;
+	margin: 20px;
+	position: absolute;
+	color: white;
+	height: 500px;
+	border-right: 2px solid white;
+	font-family: "futura-pt";
+	font-size: 62px;
+	padding-top: 30px;
+	font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
