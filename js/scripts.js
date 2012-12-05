@@ -496,15 +496,15 @@ $("#info10").click(function(event) {
 
 var lightboximages = [  "0px", "-440px", "-880px", "-1329px"];
 
-var lightboxCurrent = 0;
+var japanCurrent = 0;
 
 function rightclick() {
 
-  lightboxCurrent += 1
+  japanCurrent += 1
 
-  $("#cuttingsslide").animate({"left": lightboximages[lightboxCurrent]}, 500)
+  $("#cuttingsslide").animate({"left": lightboximages[japanCurrent]}, 500)
 
-  if (lightboxCurrent==(lightboximages.length - 1)) {
+  if (japanCurrent==(lightboximages.length - 1)) {
 
     $("#right").fadeOut()
   }
@@ -515,11 +515,11 @@ function rightclick() {
 function leftclick() {
 
 
-  lightboxCurrent -= 1
+  japanCurrent -= 1
 
-  $("#cuttingsslide").animate({"left": lightboximages[lightboxCurrent]}, 500)
+  $("#cuttingsslide").animate({"left": lightboximages[japanCurrent]}, 500)
 
-  if (lightboxCurrent==(lightboximages.length - 4)) {
+  if (japanCurrent==(lightboximages.length - 4)) {
 
     $("#left").fadeOut()
   }
