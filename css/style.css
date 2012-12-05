@@ -48,6 +48,10 @@ body {
 	height: 500px;
 }
 
+.boxcopy {
+
+	line-height: 1.1em
+}
 #buttons {
 
 	position: absolute;
